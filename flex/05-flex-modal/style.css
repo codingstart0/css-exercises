@@ -56,6 +56,25 @@ button {
   border-radius: 8px;
 }
 
+ul{
+  list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 20px;
+  padding: 0 15px;
+  }
+
+.are-you-sure {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 900;
+ font-size: larger;
+ padding: 0 15px 10px 0;
+}
+
+
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
@@ -66,4 +85,8 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.button {
+  margin-top: 20px;
 }
