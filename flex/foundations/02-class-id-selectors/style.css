@@ -1,0 +1,43 @@
+.odd {
+  background-color: rgb(203, 148, 148);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+  display: inline;
+  width: 100px;
+  border: 2px dashed rgb(240, 13, 13);
+}
+
+.third {
+  font-size: 24px;
+  padding: 0 50px 20px;
+}
+
+#second {
+  color: rgb(0, 0, 255);
+  border: 5px red;
+  font-size: 36px;
+}
+
+#fourth {
+  background-color: hwb(0 37% 22%);
+  font-weight: 700;
+  margin: 100px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.box {
+  width: 350px;
+  inline-size: 350px;
+  height: 150px;
+  block-size: 150px;
+  margin: 100px;
+  padding: 25px;
+  border: 5px solid rgb(37, 144, 48);
+}
